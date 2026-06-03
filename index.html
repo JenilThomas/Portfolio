@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jenil Thomas - Creative Multimedia Designer with expertise in visual design, motion graphics, video production, web content, and interactive media. Skilled at transforming ideas into engaging digital experiences using Adobe Creative Suite, web technologies, and AI-powered tools to enhance brand communication, user engagement, and business impact.">
+  <title>Jenil Thomas | Creative Portfolio & CV</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-dot"></div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar-header" id="header">
+    <div class="navbar-container">
+      <a href="#home" class="logo">
+        <span class="logo-symbol"></span>
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active" id="nav-link-home"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link" id="nav-link-about"><i class="fa-solid fa-user"></i> About</a></li>
+          <li class="nav-item"><a href="#timeline" class="nav-link" id="nav-link-timeline"><i class="fa-solid fa-briefcase"></i> Journey</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link" id="nav-link-projects"><i class="fa-solid fa-laptop-code"></i> Portfolio</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link" id="nav-link-contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="navbar-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle visual theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="mobile-menu-toggle" class="mobile-toggle-btn" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <canvas id="particle-canvas" class="particle-canvas"></canvas>
+    
+    <div class="hero-container">
+      <div class="hero-content">
+       
+        
+        <h1 class="hero-title animate-fade-delay-1">
+          Hi, I am <span class="gradient-text">Jenil Thomas</span>
+        </h1>
+        
+        <h2 class="hero-subtitle animate-fade-delay-2">
+          I am a <span id="typewriter-text" class="typewriter-cursor"></span>
+        </h2>
+        
+        <p class="hero-description animate-fade-delay-3">
+          Creative Multimedia Designer with expertise in visual design, motion graphics, video production, web content, and interactive media. Skilled at transforming ideas into engaging digital experiences using Adobe Creative Suite, web technologies, and AI-powered tools to enhance brand communication, user engagement, and business impact.
+        </p>
+        
+        <div class="hero-cta animate-fade-delay-4">
+          <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View Work</a>
+          <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+        </div>
+      </div>
+      
+      <div class="hero-graphics animate-fade-delay-2">
+        <div class="avatar-card-wrapper">
+          <div class="avatar-card">
+            <div class="avatar-glow"></div>
+            <div class="avatar-image-container">
+              <img src="assets/avatar.png" alt="Jenil Thomas Portrait" class="avatar-img">
+            </div>
+            <div class="avatar-details">
+              <h3>Jenil Thomas</h3>
+              <p>Multimedia Designer</p>
+              <div class="avatar-tech-tags">
+                <span>Adobe Creative Suite</span>
+                <span>UI/UX Design</span>
+                <span>Blender & Cinema 4D</span>
+                <span>AI Designer</span>
+                <span>MS Office</span>
+                <span>Vibe Coding</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to about">
+      <span class="mouse-icon"><span class="mouse-wheel"></span></span>
+    </a>
+  </section>
+
+  <!-- About & Skills Section -->
+  <section id="about" class="about-section scroll-reveal">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-subtitle">Who I Am</span>
+        <h2 class="section-title">About Me & Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-info">
+          <h3>Crafting engaging multimedia experiences through creative design and innovative digital solutions</h3>
+          <p class="about-text">
+            I am a passionate Multimedia Specialist and Digital Creator with over 6 years of experience designing immersive visual experiences. I specialize in motion graphics, video production, interactive media, and AI-enhanced creative workflows, blending creativity and technology to deliver captivating content that inspires, engages, and elevates brands.
+          </p>
+          <p class="about-text">
+            My philosophy combines creativity, visual innovation, and seamless user experiences. I thrive in collaborative environments and enjoy transforming ambitious ideas into compelling multimedia experiences through motion design, video production, interactive content, and emerging technologies.
+          </p>
+          
+          <div class="stats-dashboard">
+            <div class="stat-card">
+              <span class="stat-number" data-target="6">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Years of Experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="2">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Organisation</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="20">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Skill Sets</span>
+            </div>
+          </div>
+          
+          <div class="about-actions">
+            
+            <div class="social-links" style="display: flex;align-items: center;">
+              <a href="#" class="social-icon" aria-label="Github Profile"><i class="fa-brands fa-github"></i></a>
+              <a href="#" class="social-icon" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-skills">
+          <h3>Technical Competencies</h3>
+          
+          <div class="skills-container">
+            <div class="skill-group">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-react tech-color-react"></i> Adobe After Effects</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="90%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-group">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-node-js tech-color-node"></i> Adobe Premiere Pro</span>
+                <span class="skill-percentage">88%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="88%"></div>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-node-js tech-color-node"></i> Adobe Illustrator</span>
+                <span class="skill-percentage">92%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="92%"></div>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-node-js tech-color-node"></i> Adobe Premiere Pro</span>
+                <span class="skill-percentage">88%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="88%"></div>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-python tech-color-python"></i> Adobe Photoshop</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="90%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-group">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-solid fa-database tech-color-db"></i> HTML, CSS, and JavaScript</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="85%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-group">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-solid fa-compass-drafting tech-color-ui"></i> UI/UX & Motion Design (Figma/CSS/GSAP)</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="90%"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skills-badges">
+            <span class="badge"><i class="fa-brands fa-adobe"></i> AE</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> Pr</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> PS</span>
+            <span class="badge"><i class="fa-brands fa-adobe"></i> Figma</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> AEM</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> PS</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> HTML</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> CSS</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> JS</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> Canva</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> C</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> C++</span>
+            <span class="badge"><i  class="fa-brands fa-adobe"></i> CMS</span>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive CV Timeline -->
+  <section id="timeline" class="timeline-section scroll-reveal">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-subtitle">My Experience & Education</span>
+        <h2 class="section-title">Professional Journey</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <!-- Timeline Filter Toggles -->
+      <div class="timeline-toggles">
+        <button id="toggle-experience" class="timeline-toggle-btn active">
+          <i class="fa-solid fa-briefcase"></i> Work Experience
+        </button>
+        <button id="toggle-education" class="timeline-toggle-btn">
+          <i class="fa-solid fa-graduation-cap"></i> Education
+        </button>
+      </div>
+      
+      <!-- Timeline Containers -->
+      <div class="timeline-wrapper">
+        <!-- Experience Timeline -->
+        <div id="experience-timeline" class="timeline-content active">
+          <div class="timeline-track"></div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2019 - Present</span>
+              <h3 class="timeline-title">Multimedia Designer</h3>
+              <h4 class="timeline-institution">Allianz Services</h4>
+              <p class="timeline-desc">
+                Designing and delivering engaging multimedia solutions across web, video, motion graphics, and interactive digital platforms. Collaborating with creative teams to transform concepts into visually compelling content, including animations, UI visuals, branding assets, and digital experiences. Focused on enhancing storytelling, user engagement, and brand communication through modern design tools and creative technologies.
+              </p>
+              <div class="timeline-skills-tags">
+                <span>After Effects</span><span>Premiere Pro</span><span>Illustrator</span><span>Photoshop</span><span>AEM</span><span>HTML, CSS and JS</span><span>MS Office</span><span>HTML, CSS and JS</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2018 - 2019</span>
+              <h3 class="timeline-title">Creative Designer</h3>
+              <h4 class="timeline-institution">Crystal Colors</h4>
+              <p class="timeline-desc">
+                Designed compelling print and digital creative assets including branding materials, marketing collateral, social media visuals, and promotional content. Developed visually engaging layouts and motion-enhanced digital designs to strengthen storytelling and improve audience engagement. Focused on delivering consistent brand identity across both print and digital platforms while ensuring high-quality, detail-oriented creative output.
+              </p>
+              <div class="timeline-skills-tags">
+                <span>Coral Draw</span><span>Illustrator</span><span>Indesign</span><span>Acrobat</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2017 - 2018</span>
+              <h3 class="timeline-title">Front-end Designer</h3>
+              <h4 class="timeline-institution">Freelance</h4>
+              <p class="timeline-desc">
+                onstructed clean and responsive web pages and basic client-facing interfaces. Worked with UI/UX designs in Figma to translate layouts into functional front-end structures. Ensured responsive behavior across devices and performed basic cross-browser testing to maintain consistent user experience.
+              </p>
+              <div class="timeline-skills-tags">
+                <span>CMS</span><span>Figma</span><span>HTML, CSS and JS</span><span>PHP</span><span>SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Education Timeline (Initially Hidden) -->
+        <div id="education-timeline" class="timeline-content">
+          <div class="timeline-track"></div>
+          
+         
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2022 - 2024</span>
+              <h3 class="timeline-title">PG Diploma In IT</h3>
+              <h4 class="timeline-institution">Symbiosis University</h4>
+              <p class="timeline-desc">
+               Built strong expertise in core IT domains including database systems, operating systems, software engineering principles, and object-oriented programming. Applied these fundamentals in real-world business environments through academic and industry-aligned projects. Actively contributed as a lead member in the collegiate Open-Source Web Club, collaborating on development initiatives, knowledge sharing, and technical community engagement.
+              <div class="timeline-skills-tags">
+                <span>Java</span><span>C++</span><span>SQL</span><span>Web Architectures</span>
+              </div>
+            </div>
+          </div>
+           <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2013 - 2016</span>
+              <h3 class="timeline-title">Bachelor of Computer Application</h3>
+              <h4 class="timeline-institution">Nirmala College Of Information Technology</h4>
+              <p class="timeline-desc">
+                Specialized in foundational computer applications and emerging technologies, with academic exposure to modern web development concepts and basic machine learning principles. Completed academic project work focused on improving efficiency in digital systems and real-time processing concepts. Graduated with strong academic performance and a solid understanding of software fundamentals.
+              </p>
+              <div class="timeline-skills-tags">
+                <span>Linux OS</span><span>VB</span><span>Data Structures</span><span>Algorithms</span><span>C</span><span>C++</span><span>Java</span><span>SQL</span><span>PHP</span><span>AJAX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="projects" class="projects-section scroll-reveal">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-subtitle">My Creative Work</span>
+        <h2 class="section-title">Portfolio Showcase</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <!-- Portfolio Dynamic Filters -->
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="development">Multimedia</button>
+        <button class="filter-btn" data-filter="design">UI/UX & Design</button>
+        <button class="filter-btn" data-filter="ai">AI Solutions</button>
+      </div>
+      
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        <!-- Project 1 (Web SaaS) -->
+        <div class="project-card animate-zoom" data-category="development">
+          <div class="project-img-wrapper">
+            <img src="assets/project_web.png" alt="SaaS Analytics Dashboard Project" class="project-img">
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <span class="project-tag">Development</span>
+                <h3>Nova Dashboard</h3>
+                <p>High-end real-time SaaS analytics portal.</p>
+                <button class="btn btn-small project-view-details" data-project="nova-dashboard">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 (Mobile App) -->
+        <div class="project-card animate-zoom" data-category="design">
+          <div class="project-img-wrapper">
+            <img src="assets/project_mobile.png" alt="Fintech Wallet App Project" class="project-img">
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <span class="project-tag">UI/UX & Design</span>
+                <h3>Aura Wallet</h3>
+                <p>Fintech mobile application conceptualization.</p>
+                <button class="btn btn-small project-view-details" data-project="aura-wallet">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 (AI Platform mockup using CSS) -->
+        <div class="project-card animate-zoom" data-category="ai">
+          <div class="project-img-wrapper">
+            <div class="project-custom-gradient-bg g-ai">
+              <div class="abstract-neural-network">
+                <div class="node n1"></div>
+                <div class="node n2"></div>
+                <div class="node n3"></div>
+                <div class="node-line l1"></div>
+                <div class="node-line l2"></div>
+              </div>
+              <div class="gradient-bg-label"><i class="fa-solid fa-brain"></i> CogniMind AI</div>
+            </div>
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <span class="project-tag">AI Solutions</span>
+                <h3>CogniMind Portal</h3>
+                <p>Neural engine parsing customer sentiment natively.</p>
+                <button class="btn btn-small project-view-details" data-project="cognimind-ai">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 4 (E-commerce Web app mockup using CSS) -->
+        <div class="project-card animate-zoom" data-category="development">
+          <div class="project-img-wrapper">
+            <div class="project-custom-gradient-bg g-ecom">
+              <div class="abstract-shopping-cart">
+                <i class="fa-solid fa-cart-shopping cart-float-icon"></i>
+                <div class="bubble b1"></div>
+                <div class="bubble b2"></div>
+              </div>
+              <div class="gradient-bg-label"><i class="fa-solid fa-bag-shopping"></i> Veloce E-Com</div>
+            </div>
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <span class="project-tag">Development</span>
+                <h3>Veloce Storefront</h3>
+                <p>High-end e-commerce store with absolute performance.</p>
+                <button class="btn btn-small project-view-details" data-project="veloce-ecom">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section scroll-reveal">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-subtitle">Let's Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="contact-grid" style="display:flex;justify-content: center;align-items: center;">
+        <div class="contact-card-wrapper">
+          <div class="contact-info-panel">
+            <h3>Contact Information</h3>
+            <p>Have an ambitious project idea, a freelance request, or just want to chat engineering? Drop a line and let's build something phenomenal.</p>
+            
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="detail-text">
+                  <span>Email Me</span>
+                  <a href="mailto:jenil.thomas@example.com">jenilthomas800@gmail.com</a>
+                </div>
+              </div>
+              
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="detail-text">
+                  <span>Call Me</span>
+                  <a href="tel:+15559876543">+91 6282695592</a>
+                </div>
+              </div>
+              
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="detail-text">
+                  <span>Base Location</span>
+                  <p>Thrissur, Kerala</p>
+                </div>
+              </div>
+            </div>
+            <!--
+            <div class="contact-social-section">
+              <h4>Follow My Socials</h4>
+              <div class="contact-socials-grid">
+                <a href="#" class="social-circle" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-circle" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="social-circle" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>-->
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="logo">&lt;Jenil.Thomas/&gt;</a>
+        <p>Combining strong design fundamentals with visually engaging multimedia elements to create cohesive and impactful digital experiences.
+</p>
+      </div>
+      <p class="footer-copy">&copy; 2026 Jenil Thomas. All Rights Reserved. </p>
+    </div>
+  </footer>
+
+  <!-- Project Details Modal Lightbox -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close details modal">&times;</button>
+      
+      <div class="modal-body">
+        <div class="modal-img-container">
+          <img src="" id="modal-project-img" alt="Project Mockup Preview" class="modal-img">
+          <div class="modal-project-gradient-placeholder" id="modal-project-grad-placeholder">
+            <i class="fa-solid fa-diagram-project placeholder-icon"></i>
+          </div>
+        </div>
+        
+        <div class="modal-info">
+          <span class="modal-badge" id="modal-project-tag">Development</span>
+          <h2 class="modal-title" id="modal-project-title">Project Title</h2>
+          
+          <div class="modal-meta">
+            <span class="meta-item"><i class="fa-solid fa-calendar"></i> <strong id="modal-project-date">2025</strong></span>
+            <span class="meta-item"><i class="fa-solid fa-user-group"></i> <strong id="modal-project-client">Internal Lab</strong></span>
+          </div>
+          
+          <h3>Project Summary</h3>
+          <p class="modal-description" id="modal-project-description">
+            Project description placeholder text.
+          </p>
+          
+          <h3>Tech Stack Utilized</h3>
+          <div class="modal-tech-stack" id="modal-project-tech">
+            <span>React</span>
+          </div>
+          
+          <div class="modal-actions">
+            <a href="#" target="_blank" class="btn btn-primary" id="modal-project-demo-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live Demo</a>
+            <a href="#" target="_blank" class="btn btn-outline" id="modal-project-repo-link"><i class="fa-brands fa-github"></i> Source Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
