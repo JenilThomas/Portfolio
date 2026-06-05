@@ -486,7 +486,7 @@ button, input, textarea {
   color: var(--text-secondary);
   font-weight: 600;
   margin-bottom: 30px;
-  height: 40px; /* Conserves height for typewriter */
+  height: 60px; /* Conserves height for typewriter */
 }
 
 .typewriter-cursor::after {
@@ -496,7 +496,7 @@ button, input, textarea {
 }
 
 .hero-description {
-  font-size: 1.1rem;
+  font-size: .6rem;
   color: var(--text-secondary);
   margin-bottom: 35px;
   max-width: 580px;
